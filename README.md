@@ -1,30 +1,63 @@
-# Better.com replica
+# 🏡 Better.com Replica  
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+A front-end replica of **Better.com** built with modern web technologies to practice responsive UI design, clean layouts, and deployment workflows.  
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/farhanur-rahmans-projects/v0-better-com-replica)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/WS0VTD1Elro)
+[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://better-com-replica.vercel.app)  
 
-## Overview
+---
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 🚀 Live Demo  
 
-## Deployment
+🔗 **[View Live Project](https://better-com-replica.vercel.app)**  
 
-Your project is live at:
+---
 
-**[https://vercel.com/farhanur-rahmans-projects/v0-better-com-replica](https://vercel.com/farhanur-rahmans-projects/v0-better-com-replica)**
+## ✨ Features  
 
-## Build your app
+- 🎨 **Responsive UI** – Works seamlessly across devices (desktop, tablet, mobile)  
+- ⚡ **Fast & Optimized** – Deployed with Vercel for performance and reliability  
+- 🏗️ **Clean Layout** – Mimics Better.com’s homepage sections and styling  
+- 🔄 **Scalable Structure** – Easy to extend with more components and functionality  
 
-Continue building your app on:
+---
 
-**[https://v0.app/chat/projects/WS0VTD1Elro](https://v0.app/chat/projects/WS0VTD1Elro)**
+## 🛠️ Tech Stack  
 
-## How It Works
+- **React.js / Next.js** (depending on your build)  
+- **TypeScript / JavaScript**  
+- **Tailwind CSS** for styling  
+- **Vercel** for hosting & CI/CD  
 
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+---
+
+## 📂 Project Structure  
+
+better-com-replica/
+├── public/ # static assets
+├── src/
+│ ├── components/ # reusable UI components
+│ ├── pages/ # main pages
+│ ├── styles/ # global styles
+│ └── App.tsx / index.tsx
+├── package.json
+└── README.md
+
+---
+
+## ⚡ Getting Started  
+
+### Prerequisites  
+- Node.js (v18+)  
+- npm or yarn  
+
+### Installation  
+
+```bash
+# Clone the repository
+git clone https://github.com/farhanrahman0027/better-com-replica.git
+
+# Navigate into the project
+cd better-com-replica
+
+# Install dependencies
+npm install
